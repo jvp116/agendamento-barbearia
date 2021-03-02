@@ -1,14 +1,6 @@
 # AgendamentoBarbearia
 
 Projeto para agendamento de serviços de uma barbearia, desenvolvido para aprofundar conhecimentos em JAVA WEB; Utilização das seguintes tecnologias: 
-- Arquitetura MVC
-- Java, HTML5 e CSS3;
-- Framework Spring Tool Suite 4;
-- Framework Bootstrap 4;
-- Banco de dados My SQL Workbench 8.0;
-- Prototipação das telas em Adobe XD;
-- Plugin de máscara JQuery.
-
 
 ### 🛠 Tecnologias
 
@@ -16,6 +8,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Java](https://www.java.com/pt-BR/)
 - [Spring Tools 4](https://spring.io/tools)
+- [Thymeleaf](https://www.thymeleaf.org/)
 - [Bootstrap 4](https://getbootstrap.com.br/)
 - [My SQL Workbench](https://www.mysql.com/products/workbench/)
 - [Adobe XD](https://www.adobe.com/br/products/xd.html)
