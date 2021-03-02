@@ -9,6 +9,17 @@ Projeto para agendamento de serviços de uma barbearia, desenvolvido para aprofu
 - Prototipação das telas em Adobe XD;
 - Plugin de máscara JQuery.
 
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Java](https://www.java.com/pt-BR/)
+- [Spring Tools 4](https://spring.io/tools)
+- [Bootstrap 4](https://getbootstrap.com.br/)
+- [My SQL Workbench](https://www.mysql.com/products/workbench/)
+- [Adobe XD](https://www.adobe.com/br/products/xd.html)
+
 ![image](https://user-images.githubusercontent.com/54810933/109651740-b122c700-7b3d-11eb-884b-cd5d9a7152f0.png)
 
 ![image](https://user-images.githubusercontent.com/54810933/109652304-5f2e7100-7b3e-11eb-9827-d560c56e505a.png)
