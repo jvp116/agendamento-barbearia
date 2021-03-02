@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <title>Home - Barbearia El Terminal</title>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="../static/css/home.css" th:href="@{/css/home.css}" rel="stylesheet" />
+
+  </head>
+
+
+  <body>
+  
+    <div class="logo">
+        <header>
+            <img th:src="@{/img/elterminal-logo.png}" alt="elterminal-logo" width="128" height="128">
+          
+        </header>
+    </div> 
+
+	<p id="titulo">Barbearia El Terminal</p>
+    <div class="descrição">
+			
+        <p>Muito mais do que você espera!</p>
+
+    </div>
+    
+    <div class="botão">
+         <a class="btn btn-warning btn-lg" th:href="@{/index}">Agendar</a> 
+    </div>
+  
+	<footer>
+	    <div class="social">	 
+		    <div class="facebook-home">
+		    	<a href="https://www.facebook.com/galeriaelterminal/?rf=1671665936269501" target="_blank" role="button"><img th:src="@{/img/facebook.png}" alt="elterminal-logo" width="48" height="48"></a>
+		 	</div>
+		 	
+		  	<div class="instagram-home">
+		      	<a href="https://www.instagram.com/el_terminal/?hl=pt-br" target="_blank" role="button"><img th:src="@{/img/instagram.png}" alt="elterminal-logo" width="50" height="50"></a>
+		    </div>
+		    
+		    <div class="whatsapp-home">
+		      	<a href="https://api.whatsapp.com/send?phone=554184768324&text=Barbearia%20El%20Terminal%2C%20seja%20Bem-vindo.%20Estamos%20a%20sua%20disposi%C3%A7%C3%A3o..." target="_blank" role="button"><img th:src="@{/img/whatsapp.png}" alt="elterminal-logo" width="50" height="50"></a>
+		    </div>
+	    </div>
+    <br>
+    	<h5>Horário de funcionamento: Segunda a Sábado - 9:00 hrs às 18:00 hrs</h5>
+    
+    </footer>
+        	
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="../static/css/estilo.css" th:href="@{/css/estilo.css}" rel="stylesheet" />
+
+<title>Admin - Barbearia El terminal</title>
+</head>
+<body>
+
+<div class="navAdmin">
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	  <a class="navbar-brand">
+	    <img th:src="@{/img/elterminal-logo.png}" alt="elterminal-logo" width="40" height="40">
+	  </a>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+	      <a class="nav-item nav-link" th:href="@{/agenda}"><button type="button" class="btn btn-outline-warning">Agenda</button></a>
+	      <a class="nav-item nav-link" th:href="@{/funcionarios}"><button type="button" class="btn btn-outline-warning">Funcionários</button></a>
+	      <a class="nav-item nav-link" th:href="@{/servicos}"><button type="button" class="btn btn-outline-warning">Serviços</button></a>
+	      <a class="nav-item nav-link" th:href="@{/login}"><button type="button" class="btn btn-outline-danger">Sair</button></a>
+	    </div>
+	  </div>
+	<ul class="nav justify-content-center">
+  		<li class="nav-item">
+	 		<h2 class="title" >Admin</h2>
+	 	</li>
+	</ul>		
+	</nav>
+</div>	
+	
+	<table class="table table-bordered table-striped table-dark">
+  <thead>
+    <tr>
+    
+      <th scope="col">Cliente</th>
+      <th scope="col">Telefone</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Profissional</th>
+      <th scope="col">Serviço</th>
+      <th scope="col">Data</th>
+      <th scope="col">Hora</th>
+      <th scope="col">Observação</th>
+      <th scope="col"><img th:src="@{/img/excluirBranco.svg}" alt="elterminal-logo" width="20" height="20"></th>
+    </tr>
+  </thead>
+  <tbody th:each="agendamento: ${agendamentos}">
+    <tr>
+     
+      <td th:text="${agendamento.cliente}"></td>
+      <td th:text="${agendamento.telefone}"></td>
+      <td th:text="${agendamento.email}"></td>
+      <td th:text="${agendamento.profissional}"></td>
+      <td th:text="${agendamento.servico}"></td>
+      <td th:text="${agendamento.data}"></td>
+      <td th:text="${agendamento.hora}"></td>
+      <td th:text="${agendamento.observacao}"></td>
+      <td>
+     	<form th:action="@{/deleta-agendamento/(id=${agendamento.id})}" th:object="${agendamento}" method="POST">
+     	   <input type="submit" class="btn btn-outline-danger" value="Excluir"/>
+		</form>
+	  </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

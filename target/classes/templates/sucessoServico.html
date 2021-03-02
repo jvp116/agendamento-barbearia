@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Barbearia El terminal</title>
+</head>
+<body>
+
+	<h1> Cadastro realizado com sucesso!!!</h1>
+
+	<h3>Lista de Serviços</h3>
+	
+	<ul th:each="servico: ${servicos}">
+		
+		<li th:text="${servico.descricao}"> </li>
+		<li th:text="${servico.valor}"> </li>
+	
+	</ul>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@charset 'UTF-8';
+
+body {
+    background-image: url("/img/barbearia.jpg");
+ 	background-size: 1535px 722px;
+}
+  
+#titulo {
+  	text-shadow: 0.2em 0.2em 0.3em black;
+    color: #fcc204;
+     font-size: 45px;
+  
+}
+  
+  p {
+  	padding:5px;
+    color: white;
+	font-family:Trebuchet MS, sans-serif;
+    font-weight: "semi-bold";
+    font-size: 50px;
+     display: flex;
+    justify-content: center;
+    align-items: center
+        
+  }
+
+.logo {
+	padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   	
+}
+
+.botão{
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+h4 {
+	padding:5px;
+    color: lightgray;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif	;
+    font-weight: "semi-bold";
+    font-size: 25px;
+     display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+h5 {
+	padding:5px;
+    color: lightgray;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif	;
+    font-weight: "semi-bold";
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+a {
+	height:50px;
+	width:200px;
+}
+
+.social {
+	display: flex;
+    justify-content: center;
+	
+}
+
+.facebook {
+	padding-top: 180px;
+	padding-right: 50px;
+}
+
+.instagram {
+	padding-top: 180px;
+	padding-right: 50px;
+}
+
+.whatsapp {
+	padding-top: 180px;
+}
+
+
+.facebook-home {
+	padding-top: 130px;
+	padding-right: 50px;
+}
+
+.instagram-home {
+	padding-top: 130px;
+	padding-right: 50px;
+}
+
+.whatsapp-home {
+	padding-top: 130px;
+}

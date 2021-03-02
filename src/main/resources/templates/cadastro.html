@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="../static/css/estilo.css" th:href="@{/css/estilo.css}" rel="stylesheet" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<title>Cadastro Funcionário - Barbearia El Terminal</title>
+</head>
+
+<body>
+  
+  		<br>
+		<br>
+		<br>
+  <h2 class="title">Cadastro Funcionário</h2>
+		<br>
+		<br>
+  	<form class="form-func" th:action="@{/cadastro-funcionario}" th:object="${funcionario}" method="POST">
+  		
+  		<input class="form-control" placeholder="Nome" th:field="*{nome}" required >
+  		<br>
+		<br>
+  		
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+  		
+  		
+  		<input type="text" class="form-control" id="cpf" name="cpf"  placeholder="CPF" th:field="*{cpf}" required>
+  	  	
+  	  	<script type="text/javascript">
+			$("#cpf").mask("000.000.000-00");
+		</script>
+  	  	<br>
+  	  	<br>
+  		<input type="password" class="form-control" id="pass" name="password"
+           minlength="8" placeholder="Senha" th:field="*{senha}" required >
+  	  	<br>
+		<input type="submit" class="btn btn-warning btn-lg" value="Cadastrar">	
+  	</form>
+
+</body>
+
+</html>
