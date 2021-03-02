@@ -1,4 +1,4 @@
-# Agendamento_Barbearia
+# Agendamento-Barbearia
 
 🏆 Projeto para agendamento de serviços de uma barbearia, desenvolvido para aprofundar conhecimentos em JAVA WEB;
 <h4 align="center">
