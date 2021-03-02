@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para aprofundar conhecimentos em JAVA WEB; Utilização das seguintes tecnologias: 
 - Arquitetura MVC
-- Java, HTML5, CSS3, Javascript;
+- Java, HTML5 e CSS3;
 - Framework Spring Tool Suite 4;
 - Framework Bootstrap 4;
 - Banco de dados My SQL Workbench 8.0;
