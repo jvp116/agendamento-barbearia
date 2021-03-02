@@ -1,6 +1,6 @@
 # AgendamentoBarbearia
 
-Projeto desenvolvido para aprofundar conhecimentos e JAVA WEB; Utilização das seguintes tecnologias: 
+Projeto desenvolvido para aprofundar conhecimentos em JAVA WEB; Utilização das seguintes tecnologias: 
 - Arquitetura MVC
 - Java, HTML5, CSS3, Javascript;
 - Framework Spring Tool Suite 4;
