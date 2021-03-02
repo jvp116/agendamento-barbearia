@@ -32,3 +32,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [ ] Consulta -> agenda do funcionário específico;
 - [ ] Validação de Login
 - [ ] Lógica para data e hora, dias de funcionamento (Segunda – Sábado)
+
+![image](https://user-images.githubusercontent.com/54810933/109660931-2f846680-7b48-11eb-86e8-7e1fe04c1141.png)
+
+![image](https://user-images.githubusercontent.com/54810933/109661140-6bb7c700-7b48-11eb-96d8-aa825486ee29.png)
+
+![image](https://user-images.githubusercontent.com/54810933/109661396-b5a0ad00-7b48-11eb-8554-f285722d6edc.png)
