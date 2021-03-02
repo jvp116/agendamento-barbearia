@@ -1,6 +1,6 @@
 # AgendamentoBarbearia
 
-Projeto desenvolvido para aprofundar conhecimentos em JAVA WEB; Utilização das seguintes tecnologias: 
+Projeto para agendamento de serviços de uma barbearia, desenvolvido para aprofundar conhecimentos em JAVA WEB; Utilização das seguintes tecnologias: 
 - Arquitetura MVC
 - Java, HTML5 e CSS3;
 - Framework Spring Tool Suite 4;
